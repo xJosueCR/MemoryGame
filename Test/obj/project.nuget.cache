@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Se3Ve3O7jzXyUKTSWZ6IWZfztaW8h1FZmRm9iLW4kfykthz+le1Wov42dONVRaWZDmThBJniZnikrkmpjQVqJA==",
+  "dgSpecHash": "13keRHiJ0ja+uH48HTclbQ2qaZhyQYeaIiZtdCuCmsIsnBUGPZKK95YqGzcy/oxZXIhgQGDr6U/p8RXQYOYLbA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Josue\\source\\repos\\Test\\Test\\Test.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,8 @@
     "C:\\Users\\Josue\\.nuget\\packages\\xamarin.android.support.asynclayoutinflater\\28.0.0.3\\xamarin.android.support.asynclayoutinflater.28.0.0.3.nupkg.sha512",
     "C:\\Users\\Josue\\.nuget\\packages\\xamarin.android.support.collections\\28.0.0.3\\xamarin.android.support.collections.28.0.0.3.nupkg.sha512",
     "C:\\Users\\Josue\\.nuget\\packages\\xamarin.android.support.compat\\28.0.0.3\\xamarin.android.support.compat.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Josue\\.nuget\\packages\\xamarin.android.support.constraint.layout\\2.0.0-beta2\\xamarin.android.support.constraint.layout.2.0.0-beta2.nupkg.sha512",
+    "C:\\Users\\Josue\\.nuget\\packages\\xamarin.android.support.constraint.layout.solver\\2.0.0-beta2\\xamarin.android.support.constraint.layout.solver.2.0.0-beta2.nupkg.sha512",
     "C:\\Users\\Josue\\.nuget\\packages\\xamarin.android.support.coordinaterlayout\\28.0.0.3\\xamarin.android.support.coordinaterlayout.28.0.0.3.nupkg.sha512",
     "C:\\Users\\Josue\\.nuget\\packages\\xamarin.android.support.core.ui\\28.0.0.3\\xamarin.android.support.core.ui.28.0.0.3.nupkg.sha512",
     "C:\\Users\\Josue\\.nuget\\packages\\xamarin.android.support.core.utils\\28.0.0.3\\xamarin.android.support.core.utils.28.0.0.3.nupkg.sha512",

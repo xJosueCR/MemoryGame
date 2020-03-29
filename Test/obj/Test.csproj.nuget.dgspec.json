@@ -38,6 +38,10 @@
       "frameworks": {
         "monoandroid90": {
           "dependencies": {
+            "Xamarin.Android.Support.Constraint.Layout": {
+              "target": "Package",
+              "version": "[2.0.0-beta2, )"
+            },
             "Xamarin.Android.Support.Core.Utils": {
               "target": "Package",
               "version": "[28.0.0.3, )"

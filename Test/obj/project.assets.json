@@ -236,6 +236,35 @@
           "build/monoandroid90/Xamarin.Android.Support.Compat.targets": {}
         }
       },
+      "Xamarin.Android.Support.Constraint.Layout/2.0.0-beta2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Constraint.Layout.Solver": "2.0.0-beta2",
+          "Xamarin.Android.Support.v7.AppCompat": "28.0.0.3",
+          "Xamarin.Android.Support.v7.RecyclerView": "28.0.0.3"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid90/Xamarin.Android.Support.Constraint.Layout.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.Android.Support.Constraint.Layout.dll": {}
+        }
+      },
+      "Xamarin.Android.Support.Constraint.Layout.Solver/2.0.0-beta2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid90/Xamarin.Android.Support.Constraint.Layout.Solver.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.Android.Support.Constraint.Layout.Solver.dll": {}
+        }
+      },
       "Xamarin.Android.Support.CoordinaterLayout/28.0.0.3": {
         "type": "package",
         "dependencies": {
@@ -1021,6 +1050,32 @@
         "xamarin.android.support.compat.nuspec"
       ]
     },
+    "Xamarin.Android.Support.Constraint.Layout/2.0.0-beta2": {
+      "sha512": "4A/+WIcjHLr3AwGBVyNFq6dT09X73kw+5/zITMdRfioii/nhpqHBNP+2g6MaKVTy7mIvvFWYeb7ryhW/yGa+jQ==",
+      "type": "package",
+      "path": "xamarin.android.support.constraint.layout/2.0.0-beta2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/monoandroid90/Xamarin.Android.Support.Constraint.Layout.dll",
+        "xamarin.android.support.constraint.layout.2.0.0-beta2.nupkg.sha512",
+        "xamarin.android.support.constraint.layout.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.Constraint.Layout.Solver/2.0.0-beta2": {
+      "sha512": "6Hc5jx80lDXC8C611hFxhDI31/dodrY/7ZegK2d5uDgUu++SJ2+PNy1ncv12/10oYYY5Rm/v4nMLdSAfVWINYQ==",
+      "type": "package",
+      "path": "xamarin.android.support.constraint.layout.solver/2.0.0-beta2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/monoandroid90/Xamarin.Android.Support.Constraint.Layout.Solver.dll",
+        "xamarin.android.support.constraint.layout.solver.2.0.0-beta2.nupkg.sha512",
+        "xamarin.android.support.constraint.layout.solver.nuspec"
+      ]
+    },
     "Xamarin.Android.Support.CoordinaterLayout/28.0.0.3": {
       "sha512": "hmZPDob3/TgXHxlpumJj8+ju0/kAC1xKbIiJ9xe1g09XAYz5jjStqkgUIop3c8LJS06E9TsrCbHJWUou0JUuYw==",
       "type": "package",
@@ -1544,6 +1599,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
+      "Xamarin.Android.Support.Constraint.Layout >= 2.0.0-beta2",
       "Xamarin.Android.Support.Core.Utils >= 28.0.0.3",
       "Xamarin.Android.Support.CustomTabs >= 28.0.0.3",
       "Xamarin.Android.Support.Design >= 28.0.0.3",
@@ -1588,6 +1644,10 @@
     "frameworks": {
       "monoandroid90": {
         "dependencies": {
+          "Xamarin.Android.Support.Constraint.Layout": {
+            "target": "Package",
+            "version": "[2.0.0-beta2, )"
+          },
           "Xamarin.Android.Support.Core.Utils": {
             "target": "Package",
             "version": "[28.0.0.3, )"
