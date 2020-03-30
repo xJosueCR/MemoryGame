@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Android.App;
 using Android.OS;
 using Android.Runtime;
@@ -12,18 +13,41 @@ namespace Test
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
-
+        private readonly int buttons = 20;
+        private readonly string[] letters = new string[10] { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J" };
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
 
-            Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
+           Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
 
-           /* FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
-            fab.Click += FabOnClick;*/
+            //getting all the buttons in the view
+            List<Button> button_list = new List<Button>();
+            int index;
+            Button btn = null;
+            for(index = 1; index<buttons+1; index++)
+            {
+                int id = Resources.GetIdentifier("button" + index.ToString(), "id", this.PackageName);
+                btn = (Button)FindViewById(id);
+                button_list.Add(btn);
+            }
+            List<int> ramdom_numbers = new List<int>();
+            /*Random random = new Random();
+            while (ramdom_numbers.Count<= this.buttons)
+            {
+                int _random = random.Next(1, 20);
+                if (!ramdom_numbers.Contains(_random))
+                {
+                    ramdom_numbers.Add(_random);
+
+                }
+            }*/
+            int x = 10;
+
+
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)

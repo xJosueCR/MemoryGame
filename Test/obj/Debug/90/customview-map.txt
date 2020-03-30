@@ -1,6 +1,5 @@
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
-android.support.constraint.ConstraintLayout;obj\Debug\90\res\layout\content_main.xml
 android.support.design.widget.AppBarLayout;obj\Debug\90\res\layout\activity_main.xml
 android.support.design.widget.CoordinatorLayout;obj\Debug\90\res\layout\activity_main.xml
 android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\activity_main.xml
@@ -18,8 +17,10 @@ foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 include;obj\Debug\90\res\layout\activity_main.xml
 item;obj\Debug\90\res\menu\menu_main.xml
 item;obj\Debug\90\res\values\styles.xml
+LinearLayout;obj\Debug\90\res\layout\content_main.xml
 menu;obj\Debug\90\res\menu\menu_main.xml
 paths;C:\Users\Josue\source\repos\Test\Test\obj\Debug\90\lp\37\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+RelativeLayout;obj\Debug\90\res\layout\content_main.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\dimens.xml
 resources;obj\Debug\90\res\values\ic_launcher_background.xml
