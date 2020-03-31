@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:p4="http://xamarin.com/mono/android/designer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,20 +17,23 @@
         android:layout_marginTop="30dp"
         android:gravity="center|clip_vertical">
         <Button
-            android:text="Start game"
+            android:text="Solution"
             android:layout_width="128.0dp"
             android:layout_height="match_parent"
-            android:id="@+id/button21" />
+            android:id="@+id/button21"
+            app:backgroundTint="@android:color/holo_blue_light" />
         <Button
             android:text="Reset game"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/button22" />
+            android:id="@+id/button22"
+            app:backgroundTint="@android:color/holo_blue_light" />
         <Button
             android:text="EXIT"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/button23" />
+            android:id="@+id/button23"
+            app:backgroundTint="@android:color/holo_blue_light"/>
     </LinearLayout>
 
     <TableLayout
@@ -47,22 +51,26 @@
                 android:id="@+id/button1"
                 android:textSize="0sp"
                 android:layout_height="fill_parent"
-                android:layout_width="fill_parent" />
+                android:layout_width="fill_parent"
+                app:backgroundTint="@android:color/darker_gray" />
             <Button
                 android:id="@+id/button2"
                 android:textSize="0sp"
                 android:layout_height="fill_parent"
-                android:layout_width="fill_parent"/>
+                android:layout_width="fill_parent"
+                app:backgroundTint="@android:color/darker_gray"/>
             <Button
                 android:id="@+id/button3"
                 android:textSize="0sp"
                 android:layout_height="fill_parent"
-                android:layout_width="fill_parent"/>
+                android:layout_width="fill_parent"
+                app:backgroundTint="@android:color/darker_gray"/>
             <Button
                 android:id="@+id/button4"
                 android:textSize="0sp"
                 android:layout_height="fill_parent"
-                android:layout_width="fill_parent"/>
+                android:layout_width="fill_parent"
+                app:backgroundTint="@android:color/darker_gray"/>
         </TableRow>
         <TableRow
             android:id="@+id/tableRow2"
@@ -72,22 +80,26 @@
                 android:id="@+id/button5"
                 android:textSize="0sp"
                 android:layout_height="fill_parent"
-                android:layout_width="fill_parent" />
+                android:layout_width="fill_parent" 
+                app:backgroundTint="@android:color/darker_gray"/>
             <Button
                 android:id="@+id/button6"
                 android:textSize="0sp"
                 android:layout_height="fill_parent"
-                android:layout_width="fill_parent"/>
+                android:layout_width="fill_parent"
+                app:backgroundTint="@android:color/darker_gray"/>
             <Button
                 android:id="@+id/button7"
                 android:textSize="0sp"
                 android:layout_height="fill_parent"
-                android:layout_width="fill_parent"/>
+                android:layout_width="fill_parent"
+                app:backgroundTint="@android:color/darker_gray"/>
             <Button
                 android:id="@+id/button8"
                 android:textSize="0sp"
                 android:layout_height="fill_parent"
-                android:layout_width="fill_parent"/>
+                android:layout_width="fill_parent"
+                app:backgroundTint="@android:color/darker_gray"/>
         </TableRow>
         <TableRow
             android:id="@+id/tableRow3"
@@ -97,22 +109,26 @@
                 android:id="@+id/button9"
                 android:textSize="0sp"
                 android:layout_height="fill_parent"
-                android:layout_width="fill_parent" />
+                android:layout_width="fill_parent" 
+                 app:backgroundTint="@android:color/darker_gray"/>
             <Button
                 android:id="@+id/button10"
                 android:textSize="0sp"
                 android:layout_height="fill_parent"
-                android:layout_width="fill_parent"/>
+                android:layout_width="fill_parent"
+                 app:backgroundTint="@android:color/darker_gray"/>
             <Button
                 android:id="@+id/button11"
                 android:textSize="0sp"
                 android:layout_height="fill_parent"
-                android:layout_width="fill_parent"/>
+                android:layout_width="fill_parent"
+                 app:backgroundTint="@android:color/darker_gray"/>
             <Button
                 android:id="@+id/button12"
                 android:textSize="0sp"
                 android:layout_height="fill_parent"
-                android:layout_width="fill_parent"/>
+                android:layout_width="fill_parent"
+                 app:backgroundTint="@android:color/darker_gray"/>
         </TableRow>
         <TableRow
             android:id="@+id/tableRow4"
@@ -122,22 +138,26 @@
                 android:id="@+id/button13"
                 android:textSize="0sp"
                 android:layout_height="fill_parent"
-                android:layout_width="fill_parent" />
+                android:layout_width="fill_parent" 
+                 app:backgroundTint="@android:color/darker_gray"/>
             <Button
                 android:id="@+id/button14"
                 android:textSize="0sp"
                 android:layout_height="fill_parent"
-                android:layout_width="fill_parent"/>
+                android:layout_width="fill_parent"
+                 app:backgroundTint="@android:color/darker_gray"/>
             <Button
                 android:id="@+id/button15"
                 android:textSize="0sp"
                 android:layout_height="fill_parent"
-                android:layout_width="fill_parent"/>
+                android:layout_width="fill_parent"
+                 app:backgroundTint="@android:color/darker_gray"/>
             <Button
                 android:id="@+id/button16"
                 android:textSize="0sp"
                 android:layout_height="fill_parent"
-                android:layout_width="fill_parent"/>
+                android:layout_width="fill_parent"
+                 app:backgroundTint="@android:color/darker_gray"/>
         </TableRow>
         <TableRow
             android:id="@+id/tableRow5"
@@ -147,22 +167,26 @@
                 android:id="@+id/button17"
                 android:textSize="0sp"
                 android:layout_height="fill_parent"
-                android:layout_width="fill_parent" />
+                android:layout_width="fill_parent" 
+                 app:backgroundTint="@android:color/darker_gray"/>
             <Button
                 android:id="@+id/button18"
                 android:textSize="0sp"
                 android:layout_height="fill_parent"
-                android:layout_width="fill_parent"/>
+                android:layout_width="fill_parent"
+                 app:backgroundTint="@android:color/darker_gray"/>
             <Button
                 android:id="@+id/button19"
                 android:textSize="0sp"
                 android:layout_height="fill_parent"
-                android:layout_width="fill_parent"/>
+                android:layout_width="fill_parent"
+                 app:backgroundTint="@android:color/darker_gray"/>
             <Button
                 android:id="@+id/button20"
                 android:textSize="0sp"
                 android:layout_height="fill_parent"
-                android:layout_width="fill_parent"/>
+                android:layout_width="fill_parent"
+                 app:backgroundTint="@android:color/darker_gray"/>
         </TableRow>
     </TableLayout>
 </RelativeLayout>
